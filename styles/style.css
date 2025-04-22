@@ -1,0 +1,777 @@
+/* Selector, propiedad y valor */
+
+/* index */
+
+h1.MainTitle {
+    color: blue;
+    font-family: Minecraft;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    transition: all ease 0.3s;
+}
+
+h1.MainTitle:hover {
+    color: deeppink;
+}
+
+p {
+    color: blue;
+    font-family: Andale Mono;
+    font-size: 16px;
+    margin: 20px;
+}
+
+h1.NumberTitleMain {
+    display: flex;
+    color: blue;
+    font-family: Minecraft;
+    font-size: 330px;
+    text-align: left;
+    padding-left: 5%;
+    margin: 100px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+h1.NumberTitleAboutMe {
+    display: flex;
+    color: blue;
+    font-family: Minecraft;
+    font-size: 330px;
+    text-align: center;
+    justify-content: space-around;
+    padding-left: 5%;
+    margin: 0px;
+    position: relative;
+    top: 116px;
+    left: 10px;
+}
+
+h2.SecondTitleMain {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15%;
+    color: blue;
+    font-family: Minecraft;
+    font-size: 120px;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    right: 380px;
+}
+
+h2.SecondSecondTitleMain {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15%;
+    color: blue;
+    font-family: Minecraft;
+    font-size: 120px;
+    text-align: center;
+    position: absolute;
+    top: 273px;
+    right: 560px;
+}
+
+/* container for folder-shaped elements */
+
+.Container {
+    padding: 1em;
+    display: grid;
+    justify-content: end;
+    grid-template-columns: 200px;
+    grid-gap: 2em;
+    margin: 10%;   
+  }
+
+  .SubtitleMain {
+    height: 105px;
+    width: 100%;
+    position: relative;
+    background-color: blue;
+    border-radius: 0 6px 6px 6px;
+    padding: 0.25em 0.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  
+  .SubtitleMain:before {
+    content: "";
+    width: 50%;
+    height: 12px;
+    border-radius: 0 20px 0 0;
+    background-color: blue;
+    position: absolute;
+    top: -13px;
+    left: -1px;
+  }
+
+  .Options1 {
+    display: flex;
+    column-gap: 1em;
+    position: relative;
+    bottom: 310px;
+    right: 200px;
+  }
+
+  .Options2 {
+    display: flex;
+    column-gap: 1em;
+    position: relative;
+    bottom: 610px;
+    right: 200px;
+  }
+
+  .Options3 {
+    display: flex;
+    column-gap: 1em;
+    position: relative;
+    bottom: 910px;
+    right: 630px;
+  }
+
+  .Options4 {
+    display: flex;
+    column-gap: 1em;
+    position: relative;
+    bottom: 1250px;
+    right: -60px;
+  }
+
+
+h4.SubtitleMain {
+    color: #c9d4f3;
+    font-family: Andale Mono;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.Container #SubMain1 {
+    display: flex;
+    position: relative;
+    left: -450px;
+    bottom: 190px;
+
+}
+
+.Container #SubMain2 {
+    display: flex;
+    position: relative;
+    left: -680px;
+    bottom: 490px;
+
+}
+
+.Container #SubMain3 {
+    display: flex;
+    position: relative;
+    left: -450px;
+    bottom: 790px;
+
+}
+
+.Container #SubMain4 {
+    display: flex;
+    position: relative;
+    left: -190px;
+    bottom: 1100px;
+
+}
+
+h1.AboutMeTitle {
+    color: blue;
+    font-family: Minecraft;
+    font-size: 130px;
+    text-align: center;
+}
+
+h2.SecondTitleAboutMe1 {
+    position: relative;
+    left: 80px;
+    color: blue;
+    font-family: Minecraft;
+    font-size: 120px;
+    text-align: center;
+    bottom: 40px;
+}
+
+h2.SecondTitleAboutMe2 {
+    position: relative;
+    left: 278px;
+    color: blue;
+    font-family: Minecraft;
+    font-size: 120px;
+    text-align: center;
+    bottom: 95px;
+}
+
+h1.UxuiTitle {
+    color: blue;
+    font-family: Minecraft;
+    font-size: 100px;
+    text-align: center;
+}
+
+h2.SecondTitleUxui {
+    color: blue;
+    font-family: Minecraft;
+    font-size: 200px;
+    text-align: center;
+}
+
+h4.SubtitleUxui {
+    color: blue;
+    font-family: Andale Mono;
+    font-size: 16px;
+    margin: 20px;
+}
+
+h1.VisualArtTitle {
+    color: blue;
+    font-family: Minecraft;
+    font-size: 130px;
+    text-align: left;
+}
+
+h2.SecondTitleVisualArt {
+    color: blue;
+    font-family: Minecraft;
+    font-size: 120px;
+    text-align: right;
+}
+
+.Contact {
+    position: relative;
+}
+
+h1.ContactTitle {
+    position: absolute;
+    color: blue;
+    font-family: Minecraft;
+    font-size: 330px;
+    text-align: right;
+    bottom: -900px;
+    right: 0px;
+    padding: 10px;
+}
+
+.ContactText {
+    position: relative;
+    bottom: -990px;
+    left: 10px;
+    margin-right: 1570px;
+    margin-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2.SecondTitleContact {
+    color: blue;
+    font-family: Minecraft;
+    font-size: 120px;
+    text-align: left;
+    position: absolute;
+    top: 10px;
+    margin-left: 100px;
+}
+
+div.FormContactName {
+    color: blue;
+    font-family: Andale Mono;
+    font-size: 16px;
+    margin: 20px;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    bottom: 200px;
+    left: 400px;
+}
+
+div.FormContactMail {
+    color: blue;
+    font-family: Andale Mono;
+    font-size: 16px;
+    margin: 20px;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    bottom: 140px;
+    left: 400px;
+}
+
+div.FormContactMessage {
+    color: blue;
+    font-family: Andale Mono;
+    font-size: 16px;
+    margin: 20px;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    bottom: 60px;
+    left: 400px;
+}
+
+h2.ThirdTitleContact {
+    color: blue;
+    font-family: Andale Mono;
+    font-size: 20px;
+    margin: 20px;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    left: 800px;
+    bottom: 70px;
+}
+
+input.SendButtonContact {
+  align-items: center;
+  background-color: blue;
+  border: 2px solid blue;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Andale Mono;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  width: 310px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  position: absolute;
+  left: 800px;
+  bottom: -350px;
+}
+
+input.DeleteButtonContact {
+    align-items: center;
+    background-color: blue;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    fill: blue;
+    font-family: Andale Mono;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    width: 310px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: absolute;
+    left: 800px;
+    bottom: -410px;
+  }
+
+  input {
+    width: 50%;
+    padding: 12px;
+    margin: 20px 0;
+  }
+
+  textarea {
+    width: 50%;
+    padding: 12px;
+    margin: 20px 0;
+  }
+
+  body {
+    background-color: #e1e8fc;
+  }
+
+  header.HeaderFlex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin: 20px;
+    text-decoration: none;
+    
+  }
+
+header ol li {
+    display:inline-block;
+    list-style: none;
+    align-content: normal;
+    margin: 0 10px;
+}
+    
+header ol li:last-child {
+    margin-right: -15px;
+}    
+
+header ol li a {
+    text-decoration: none;
+    transition: all ease 0.3s;
+    font-family: Andale Mono;
+    font-size: 18px;
+    color: blue;
+    text-align: right;
+    padding: 20px;
+    width: 60px;
+}
+
+/* hacer que el hover de los links cambie entre dos colores. cómo lo hago??? ya veremos */
+
+header ol li a:hover { 
+    color: #9cd60a;
+    color: deeppink;
+}
+
+.AboutMe {
+    display: flex;
+    align-items: flex-start;
+}
+
+.AboutMeText {
+    display: block;
+    margin-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.AboutMePortrait img {
+    position: relative;
+    width: 800px;
+    height: auto;
+    right: -10px;
+}
+
+.AboutMeParagraph {
+    position: relative;
+    bottom: 80px;
+    margin-left: 70px;
+}
+
+.AboutMeFolder {
+    height: 105px;
+    width: 10%;
+    position: relative;
+    background-color: blue;
+    border-radius: 0 6px 6px 6px;
+    padding: 0.25em 0.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    left: 860px;
+    bottom: 117px;
+}
+
+.AboutMeFolder:before {
+    content: "";
+    width: 50%;
+    height: 12px;
+    border-radius: 0 20px 0 0;
+    background-color: blue;
+    position: absolute;
+    top: -13px;
+    left: -1px;
+}
+
+/* contact */
+
+.List1 {
+    height: 105px;
+    position: relative;
+    background-color: #95b0f8;
+    border-radius: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: blue;
+    padding: 0.25em 0.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+    left: 1250px;
+    bottom: -30px;
+}
+
+.List1:before {
+    content: "";
+    width: 50%;
+    height: 12px;
+    border-radius: 0 20px 0 0;
+    border-style: solid;
+    border-color: blue;
+    background-color: #95b0f8;
+    position: absolute;
+    top: -13px;
+    left: -1px;
+}
+
+.List2 {
+    height: 105px;
+    position: relative;
+    background-color: #95b0f8;
+    border-radius: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: blue;
+    padding: 0.25em 0.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+    left: 1150px;
+    bottom: -120px;
+}
+
+.List2:before {
+    content: "";
+    width: 50%;
+    height: 12px;
+    border-radius: 0 20px 0 0;
+    border-style: solid;
+    border-color: blue;
+    background-color: #95b0f8;
+    position: absolute;
+    top: -13px;
+    left: -1px;
+}
+
+.List3 {
+    height: 105px;
+    position: relative;
+    background-color: #95b0f8;
+    border-radius: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: blue;
+    padding: 0.25em 0.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+    left: 1050px;
+    bottom: -210px;
+}
+
+.List3:before {
+    content: "";
+    width: 50%;
+    height: 12px;
+    border-radius: 0 20px 0 0;
+    border-style: solid;
+    border-color: blue;
+    background-color: #95b0f8;
+    position: absolute;
+    top: -13px;
+    left: -1px;
+}
+
+.List4 {
+    height: 105px;
+    width: 620%;
+    position: relative;
+    background-color: #95b0f8;
+    border-radius: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: blue;
+    padding: 0.25em 0.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+    left: 950px;
+    bottom: -300px;
+}
+
+.List4:before {
+    content: "";
+    width: 50%;
+    height: 12px;
+    border-radius: 0 20px 0 0;
+    border-style: solid;
+    border-color: blue;
+    background-color: #95b0f8;
+    position: absolute;
+    top: -13px;
+    left: -1px;
+}
+
+.ContactFlex {
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    
+}
+
+.ContactFlex li a:hover {
+    list-style: none;
+    color: #e1e8fc;
+}
+
+.ContactFlex a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Andale Mono;
+    transition: all ease 0.3s;
+    color: blue;
+}
+
+.form-label {
+    font-family: Andale Mono;
+    font-size: 18px;
+    color: blue;
+}
+
+.Name {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 30%;
+    left: 620px;
+    bottom: -40px;
+}
+
+.Mail {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 30%;
+    left: 620px;
+    bottom: -130px;
+}
+
+.Message {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 30%;
+    left: 620px;
+    bottom: -220px;
+}
+
+/* ux ui */
+
+.Containeruxui {
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ContainerUxUi #melete {
+    height: 305px;
+    width: 50%;
+    font-family: Minecraft;
+    font-size: 40px;
+    color: aliceblue;
+    position: relative;
+    background-color: #95b0f8;
+    border-radius: 0 6px 6px 6px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    bottom: -17px;
+    left: 0px;
+}
+  
+.ContainerUxUi #melete:before {
+    content: "";
+    width: 50%;
+    height: 12px;
+    border-radius: 0 20px 0 0;
+    background-color: #95b0f8;
+    position: absolute;
+    top: -13px;
+    left: -1px;
+}
+
+.ContainerUxUi #gdr {
+    height: 450px;
+    width: 50%;
+    position: relative;
+    font-family: Minecraft;
+    font-size: 40px;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 0 6px 6px 6px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    bottom: -30px;
+    left: 930px;
+}
+  
+.ContainerUxUi #gdr:before {
+    content: "";
+    width: 50%;
+    height: 12px;
+    border-radius: 0 20px 0 0;
+    background-color: blue;
+    position: absolute;
+    top: -13px;
+    left: -1px;
+}
+
+/* footer */
+
+.FooterUxUi {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+}
+
+.FooterContact {
+    display: flex;
+    position: absolute;
+    bottom: -490px;
+}
+
+/* media query */
+
+@media (min-width: 600px) {
+.nav ol li {
+    display: grid;
+    grid-column: 2;
+}
+}
+
